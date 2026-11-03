@@ -1,0 +1,25 @@
+# Compilação e executáveis locais
+/target/
+/dist/
+*.class
+*.log
+
+# Credenciais e dados locais
+/config/db.properties
+.env
+.env.*
+!.env.example
+mysql-admin.cnf
+bootstrap.sql
+*.sql.gz
+*.dump
+
+# IDEs e sistema operacional
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
+Thumbs.db
